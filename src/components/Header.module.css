@@ -1,0 +1,80 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: var(--gray-700);
+  height: 12.5rem;
+}
+
+.root {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.root .logo {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+  flex-direction: row;
+}
+
+.root .logo img {
+  height: 2.25rem;
+}
+
+.root .logo .logoType span {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.root .logo .logoType span:nth-child(1) {
+  color: var(--blue);
+}
+.root .logo .logoType span:nth-child(2) {
+  color: var(--purple-dark);
+}
+
+.root .createTask {
+  position: absolute;
+  bottom: calc(-3.375rem / 2);
+  display: flex;
+  flex-direction: row;
+  gap: 0.5rem;
+  height: 3.375rem;
+  width: 46rem;
+}
+.root .createTask button {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--gray-100);
+  background-color: var(--blue);
+  padding: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.root .createTask input {
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  height: 100%;
+  width: 100%;
+  padding: 1.687rem 1rem;
+  font-size: 1rem;
+  color: var(--gray-100);
+  background-color: var(--gray-500);
+}
+
+.root .createTask input:focus {
+  outline: none;
+  border: 1px solid var(--purple-dark);
+}

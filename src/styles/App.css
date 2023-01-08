@@ -1,0 +1,16 @@
+body {
+  background-color: var(--gray-600);
+  color: var(--gray-100);
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5.6rem;
+}
+
+.wrapper main {
+  width: 46rem;
+}
